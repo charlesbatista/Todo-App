@@ -16,11 +16,27 @@
 * {
     padding: 0;
     margin: 0;
+    border: 0;
+    outline: 0;
     box-sizing: border-box;
+    list-style: none;
+}
+
+svg {
+    line-height: 0;
 }
 
 body {
+    background: var(--gray-600)
+}
+
+body, input, textarea, button {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    background: var(--gray-600)
+    font-style: normal;
+    font-size: 1rem
+}
+
+.texto-gray-400 {
+    color: var(--gray-400);
 }

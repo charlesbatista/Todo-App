@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: 46rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: -1.8rem auto;
+    align-items: flex-start;
+    padding: 0 2rem;
+    gap: 2.5rem
+}

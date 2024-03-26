@@ -1,0 +1,28 @@
+.custom_checkbox {
+    flex-shrink: 0;
+    display: flex
+}
+
+.custom_checkbox input[type=checkbox] {
+    display: none
+}
+
+.custom_checkbox .icone {    
+    display: flex;
+    cursor: pointer;
+    width: 1.125rem;
+    height: 1.125rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+}
+
+.custom_checkbox .icone:hover {
+    border: 2px solid var(--purple-dark);
+}
+
+.custom_checkbox input[type=checkbox]:checked + .icone  {
+    background-color: var(--purple-dark);
+    border: 0
+}
